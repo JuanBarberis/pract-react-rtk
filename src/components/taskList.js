@@ -15,7 +15,7 @@ export default function TaskList() {
         <div className=' w-4/6  '>
             <header className='flex justify-evenly  items-center py-4'>
                 <h1>Task {task.length}</h1>
-                <Link to='/create' className='bg-fuchsia-600 px-2 py-1 rounded-md'>create task</Link>
+                <Link to='/create' className='bg-fuchsia-600 px-2 py-1 rounded-md'>create task!</Link>
             </header>
             <div className='flex flex-wrap  gap-4 justify-center'>
                 {
